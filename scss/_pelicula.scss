@@ -1,0 +1,18 @@
+@import 'variables';
+
+
+#sinopsis {
+	font-family: $fuente;
+	color: #ccc !important;
+	font-weight: 300;
+}
+
+#tituloPelicula {
+	font-family: $fuente;
+	color: $bordo;
+	font-weight: 800;
+}
+
+#trailer {
+	padding-bottom: 40px;
+}

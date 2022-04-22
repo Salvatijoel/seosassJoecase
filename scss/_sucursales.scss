@@ -1,0 +1,100 @@
+@import 'variables';
+
+.sucursales-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: repeat(5, 60px 360px);
+	padding-left: 50px;
+	padding-right: 50px;
+	grid-gap: 20px;
+}
+.sucursales-item {
+	font-family: $fuente;
+	font-weight: 500;
+	font-size: 36px;
+	color: $blanco;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	img {
+		max-width: 620px;
+	}
+}
+.sucursales-item-chinese {
+	font-family: $fuente;
+	font-weight: 500;
+	font-size: 36px;
+	color: $blanco;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 16px;
+	img {
+		max-width: 620px;
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width:1108px) {
+	body {
+		margin: 0;
+		padding: 0;
+		width: $full;
+		height: $full;
+		box-sizing: border-box;
+	}
+	html {
+		margin: 0;
+		padding: 0;
+		width: $full;
+		height: $full;
+		box-sizing: border-box;
+	}
+	.sucursales-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(5, auto auto);
+		padding-left: 0;
+		padding-right: 0;
+		grid-gap: 10px;
+		border: #fff;
+		border-width: 3px;
+	}
+	.sucursales-item {
+		font-family: $fuente;
+		font-weight: 500;
+		font-size: 26px;
+		color: $blanco;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		img {
+			max-width: 500px;
+			width: auto;
+		}
+	}
+	.sucursales-item-chinese {
+		img {
+			max-width: 500px;
+			width: auto;
+			padding-top: 20px;
+		}
+	}
+}
+@media only screen and (max-width: 605px) {
+	#mapita {
+		display: none;
+	}
+	.sucursales-item {
+		img {
+			max-width: 250px;
+			width: auto;
+		}
+	}
+	.sucursales-item-chinese {
+		img {
+			max-width: 250px;
+			width: auto;
+			padding-top: 20px;
+		}
+	}
+}

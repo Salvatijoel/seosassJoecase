@@ -1,0 +1,66 @@
+@import 'variables';
+
+
+.image {
+	position: relative;
+	width: $full;
+	height: $full;
+	object-fit: cover;
+}
+.image__img {
+	width: $full;
+}
+.image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: $full;
+	height: $full;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	font-family: $fuente;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+	&:hover {
+		opacity: 1;
+	}
+}
+#botoncito {
+	font-size: 48px;
+	&:hover {
+		color: #fff;
+		border-radius: 80px;
+		transition: all 0.25s;
+		background-color: $bordo; 
+	}
+}
+#tituloX {
+	font-size: 48px;
+	padding-right: 6%;
+}
+.image__title {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 15px;
+}
+.image__description {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+	background-color: transparent;
+	border-width: 0;
+	color: #fff;
+}
+#cartelera {
+	.col-lg-3 {
+		margin: 0 !important;
+		padding: 35px;
+	}
+	img {
+		width: $full;
+		height: $full;
+	}
+}
