@@ -1,3 +1,16 @@
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
+
+#candyBordo {
+  color: #8f1010 !important; }
+
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
+
 .image {
   position: relative;
   width: 100%;
@@ -57,6 +70,10 @@
   width: 100%;
   height: 100%; }
 
+#carteleraTitulo {
+  font-size: 2vw !important;
+  padding-top: 15px; }
+
 textarea {
   resize: none; }
 
@@ -66,12 +83,24 @@ textarea {
 footer {
   margin-top: 100px; }
 
+#footer-youtube {
+  color: #FF0000; }
+
+#footer-twitter {
+  color: #1DA1F2; }
+
+#footer-instagram {
+  color: #E1306C; }
+
+#footer-facebook {
+  color: #4267B2; }
+
 #banner {
   padding-bottom: 25px; }
 
 h1 {
-  font-family: "Montserrat", sans-serif !important;
-  color: #fff !important;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
   font-size: 10vw;
   font-weight: 800; }
 
@@ -83,6 +112,11 @@ nav {
 .navbar {
   position: sticky;
   top: 0; }
+
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
 
 #sinopsis {
   font-family: "Montserrat", sans-serif;
@@ -96,6 +130,11 @@ nav {
 
 #trailer {
   padding-bottom: 40px; }
+
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
 
 .sucursales-container {
   display: grid;
@@ -177,3 +216,205 @@ nav {
     max-width: 250px;
     width: auto;
     padding-top: 20px; } }
+
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
+
+/* Colores */
+/* Paleta de colores */
+#candyBordo {
+  color: #8f1010 !important; }
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+  margin-left: 5px; }
+
+.btn-bordo {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #8f1010;
+  margin-left: 5px; }
+  .btn-bordo:hover {
+    background-color: #a61313; }
+
+.btn-outlined-bordo {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #8f1010; }
+  .btn-outlined-bordo:hover {
+    background-color: #8f1010;
+    color: #fff !important; }
+
+.btn-blanco {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #edf0f1;
+  margin-left: 5px; }
+  .btn-blanco:hover {
+    background-color: #fbfcfc; }
+
+.btn-outlined-blanco {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #edf0f1; }
+  .btn-outlined-blanco:hover {
+    background-color: #edf0f1;
+    color: #fff !important; }
+
+.btn-reBlanco {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px; }
+  .btn-reBlanco:hover {
+    background-color: white; }
+
+.btn-outlined-reBlanco {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #fff; }
+  .btn-outlined-reBlanco:hover {
+    background-color: #fff;
+    color: #fff !important; }
+
+.btn-twitter {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1DA1F2;
+  margin-left: 5px; }
+  .btn-twitter:hover {
+    background-color: #35abf3; }
+
+.btn-outlined-twitter {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #1DA1F2; }
+  .btn-outlined-twitter:hover {
+    background-color: #1DA1F2;
+    color: #fff !important; }
+
+.btn-facebook {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #4267B2;
+  margin-left: 5px; }
+  .btn-facebook:hover {
+    background-color: #5074be; }
+
+.btn-outlined-facebook {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #4267B2; }
+  .btn-outlined-facebook:hover {
+    background-color: #4267B2;
+    color: #fff !important; }
+
+.btn-instagram {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #E1306C;
+  margin-left: 5px; }
+  .btn-instagram:hover {
+    background-color: #e4467c; }
+
+.btn-outlined-instagram {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #E1306C; }
+  .btn-outlined-instagram:hover {
+    background-color: #E1306C;
+    color: #fff !important; }
+
+.btn-youtube {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #FF0000;
+  margin-left: 5px; }
+  .btn-youtube:hover {
+    background-color: #ff1a1a; }
+
+.btn-outlined-youtube {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 5px;
+  border: 1px solid #FF0000; }
+  .btn-outlined-youtube:hover {
+    background-color: #FF0000;
+    color: #fff !important; }

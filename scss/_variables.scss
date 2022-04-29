@@ -1,6 +1,34 @@
+/* Colores */
 $bordo: #8f1010;
-
 $blanco: #edf0f1;
+$reBlanco: #fff; 
+$twitter: #1DA1F2; 
+$facebook: #4267B2; 
+$instagram: #E1306C;
+$youtube: #FF0000;
+
+
+
+/* Paleta de colores */
+
+$colores: (
+    "bordo": $bordo,
+    "blanco": $blanco,
+    "reBlanco": $reBlanco,
+    "twitter": $twitter,
+    "facebook": $facebook,
+    "instagram": $instagram,
+    "youtube": $youtube,
+);
+
+@debug  map-get($colores, "bordo");
+@debug map-has-key($colores, "twitter");
+
+
+#candyBordo {
+color:  map-get($colores, "bordo") !important;
+}
+
 
 $full: 100%; 
 
